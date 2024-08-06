@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BadBreath">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fresh Breath for Fido: Combating Canine Bad Breath"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:id="@+id/Badbreath"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/badbreath_removal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bad breath, also known as halitosis, is a common complaint among dogs. While not always a cause for major concern, it can be unpleasant and sometimes indicate an underlying health issue. Let's explore ways to keep your pup's breath minty fresh!" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unmasking the Cause:"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <ImageView
+                android:id="@+id/Badbreath1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/breath1"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The culprit behind bad breath in dogs can be varied. Here are some common causes:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dental Issues: Just like humans, plaque and tartar buildup on teeth can lead to bad breath in dogs. Regular dental hygiene is crucial.\nDietary Issues: Certain foods or treats can contribute to bad breath. Gastrointestinal problems can also be a factor.\nDehydration: Lack of water can lead to a dry mouth, contributing to bad breath."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brushing Up on Solutions:"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <ImageView
+                android:id="@+id/Badbreath2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/breath2"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here are some effective ways to combat canine bad breath:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brushing: The gold standard for dental hygiene is daily teeth brushing with a dog-specific toothpaste and toothbrush. Start gradually to get your dog accustomed to the routine.\nDental Treats and Chews: Dental chews and treats can help remove plaque and freshen breath. Choose ones with the Veterinary Oral Health Council (VOHC) seal of approval for effectiveness.\nDental Diets: Certain dog foods are formulated with kibble shapes and textures that help promote dental cleaning as your dog chews.\nWater, Water Everywhere: Ensure your dog has access to fresh, clean water throughout the day.\nDental Water Additives: Consult your veterinarian about dental water additives that can help freshen breath and fight bacteria.\nTreats with a Twist: Some natural treats like carrots, apples, and celery can help scrape away plaque as your dog chews. Just be sure they are cut into appropriate sizes to avoid choking hazards."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When to See the Vet:"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <ImageView
+                android:id="@+id/Badbreath3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/breath3"
+                android:paddingBottom="8dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If your dog's bad breath persists despite implementing these steps, schedule a visit with your veterinarian. Persistent bad breath can be a sign of underlying health issues like dental disease, diabetes, or kidney problems. Early diagnosis and treatment are crucial for your pet's overall health."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taking a Fresh Approach:"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By incorporating these tips into your pet care routine, you can help keep your dog's breath smelling minty fresh and promote their overall dental health. Remember, a healthy mouth is a happy (and kissable!) pup!"
+                android:paddingTop="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Blog">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/Explore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="BLOGS"
+            android:textSize="26sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:queryHint="Search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Explore" />
+
+        <RelativeLayout
+            android:id="@+id/my_pets_section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/reminder_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onTicksSectionClick"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/searchView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="8dp"
+                android:text="PET CARE HEALTH APP"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/petCare"
+                android:layout_width="87dp"
+                android:layout_height="102dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/petcarehealth" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/petCare"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-64dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:text="ABOUT US"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ticks_section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/reminder_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onTicksSectionClick"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/my_pets_section">
+
+
+            <ImageView
+                android:id="@+id/ticks_image"
+                android:layout_width="87dp"
+                android:layout_height="102dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ticks" />
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="74dp"
+                android:layout_below="@id/ticks_image"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-88dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:text="THIS IS THE RIGHT WAY TO REMOVE TICKS AND PREVENT THEM"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dog_breath_section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/reminder_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onTicksSectionClick"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticks_section">
+
+            <ImageView
+                android:id="@+id/bad_breath"
+                android:layout_width="87dp"
+                android:layout_height="102dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/bad_breath" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/bad_breath"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-81dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:text="HOW TO DEAL WITH DOG'S BAD BREATH"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cough_section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/reminder_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onTicksSectionClick"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dog_breath_section">
+
+            <ImageView
+                android:id="@+id/cough1"
+                android:layout_width="87dp"
+                android:layout_height="102dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/cough1" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/cough1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-81dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:text="WHY IS MY PET COUGHING?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/stressed_section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/reminder_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onTicksSectionClick"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cough_section">
+
+            <ImageView
+                android:id="@+id/stress"
+                android:layout_width="87dp"
+                android:layout_height="102dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/stressed_cat" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="86dp"
+                android:layout_below="@id/stress"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-92dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:text="HOW DOES BEING STRESSED AFFECT YOUR PET?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dental_care"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/reminder_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onTicksSectionClick"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stressed_section">
+
+            <ImageView
+                android:id="@+id/dental_image"
+                android:layout_width="87dp"
+                android:layout_height="102dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dental" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="88dp"
+                android:layout_below="@id/dental_image"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-92dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:text="SHINING SMILES: THE BEST DENTAL CARE PRODUCTS FOR YOUR PET"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

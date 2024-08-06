@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shining Smiles: The 5 Best Dental Care Products for Your Pet"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maintaining good dental hygiene is just as important for your pet as it is for you! Healthy teeth and gums not only prevent bad breath but also contribute to your pet's overall health. Regular dental care can help prevent serious health problems down the road. But with so many dental care products on the market, choosing the right ones for your furry friend can be overwhelming."
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Worry not, pet parents! Here's a rundown of the 5 best dental care products to keep your pet's pearly whites sparkling:"
+            android:paddingBottom="16dp" />
+
+        <!-- Enzymatic Toothpaste -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Enzymatic Toothpaste:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/dental_toothpaste_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dental_toothpaste"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Just like us, pets benefit from regular brushing with an enzymatic toothpaste formulated specifically for them. Enzymes help break down plaque and tartar buildup, while the formula is gentle enough for your pet's sensitive mouth."
+            android:paddingBottom="16dp" />
+
+        <!-- Dental Chews & Treats -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Dental Chews and Treats:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/dental_chews_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dental_chews"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dental chews and treats are a delicious way to promote good dental health. These chews are designed with ridges and textures that help scrape away plaque and tartar as your pet chews. Choose dental chews with the Veterinary Oral Health Council (VOHC) seal of approval for effectiveness."
+            android:paddingBottom="16dp" />
+
+        <!-- Dental Sprays & Water Additives -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Dental Sprays and Water Additives:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/dental_sprays_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dental_sprays"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dental sprays and water additives can be a convenient way to freshen breath and fight plaque buildup. These products often contain enzymes and other ingredients that help keep your pet's mouth clean and healthy. Just be sure to choose products formulated for pets and follow the manufacturer's instructions carefully."
+            android:paddingBottom="16dp" />
+
+        <!-- Dental Wipes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Dental Wipes:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/dental_wipes_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dental_wipes"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dental wipes are a quick and easy way to clean your pet's teeth, especially for those who dislike brushing. These wipes are pre-moistened with a solution that helps remove plaque and freshen breath. They're a good option for daily cleaning or for in-between brushing sessions."
+            android:paddingBottom="16dp" />
+
+        <!-- Dental Food & Treats -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Dental Food and Treats:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/dental_food_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dental_food"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certain dental diets and treats are formulated with kibble shapes and textures that help promote dental cleaning. These diets can be a good choice for pets who are prone to dental problems or who dislike other forms of dental care."
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember: Dental care is an ongoing process. The best approach includes a combination of these products and regular veterinary checkups. Talk to your veterinarian about the best dental care routine for your pet and discuss any concerns you may have."
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With a little effort, you can keep your pet's smile healthy and bright for years to come!"
+            android:paddingBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

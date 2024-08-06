@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cough">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why is My Pet Coughing?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:id="@+id/Coughing1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cough2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coughing is a common symptom in dogs and cats, and it can be caused by a variety of factors. Some of the most common causes of coughing in pets include:" />
+
+            <ImageView
+                android:id="@+id/Coughing2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cough3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upper respiratory infections: These are the most common cause of coughing in pets. Viruses and bacteria can infect the upper respiratory tract, causing inflammation and irritation. Symptoms of an upper respiratory infection often include sneezing, runny nose, and fever."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lower respiratory infections: These infections can also cause coughing in pets. Pneumonia is a common lower respiratory infection that can be caused by bacteria, viruses, or fungi. Symptoms of pneumonia often include difficulty breathing, fever, and lethargy."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart disease: Heart disease can also cause coughing in pets. When the heart is not pumping blood efficiently, fluid can build up in the lungs, causing coughing. Other symptoms of heart disease often include shortness of breath, fatigue, and exercise intolerance."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Allergies: Allergies can also cause coughing in pets. Allergens such as pollen, dust mites, and mold can irritate the respiratory tract, causing coughing. Other symptoms of allergies often include sneezing, itching, and watery eyes."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kennel cough: Kennel cough is a highly contagious respiratory infection that can affect dogs of all ages. Symptoms of kennel cough often include a hacking cough, fever, and lethargy."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aspiration pneumonia: This occurs when a pet inhales food, water, or other foreign objects into the lungs. Symptoms of aspiration pneumonia often include coughing, difficulty breathing, and fever."
+                android:paddingTop="8dp" />
+
+            <ImageView
+                android:id="@+id/Coughing3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cough4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If your pet is coughing, it is important to see your veterinarian for a diagnosis and treatment plan. Your veterinarian will be able to determine the underlying cause of your pet's cough and recommend the best course of action."
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In the meantime, there are a few things you can do to help your pet feel more comfortable. First, make sure your pet is drinking plenty of fluids. You can also use a humidifier to add moisture to the air, which can help to loosen mucus and make it easier for your pet to breathe."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is also important to keep your pet calm and stress-free. Stress can worsen respiratory symptoms, so it is important to create a quiet and relaxing environment for your pet."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If your pet's cough is accompanied by other symptoms, such as difficulty breathing, lethargy, or fever, it is important to seek veterinary care immediately."
+                android:paddingTop="8dp" />
+
+            <ImageView
+                android:id="@+id/Coughing4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cough5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here are some tips for preventing coughing in your pet:"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keep your pet's vaccinations up-to-date.\nAvoid exposing your pet to sick animals.\nWash your hands thoroughly after handling your pet.\nKeep your pet's environment clean and free of allergens.\nProvide your pet with plenty of fresh water.\nFeed your pet a healthy diet.\nExercise your pet regularly.\nBrush your pet's teeth regularly.\nTake your pet to the veterinarian for regular checkups."
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By following these tips, you can help to keep your pet healthy and happy."
+                android:paddingTop="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

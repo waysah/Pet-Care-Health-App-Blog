@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicksRemoval">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tick Talk: How to Safely Remove and Prevent Ticks on Your Pet"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <ImageView
+                android:id="@+id/ticks_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ticks_removal"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ticks are a common concern for pet owners, especially during warm weather months. These tiny bloodsuckers can attach themselves to your dog or cat, feeding on their blood and potentially transmitting diseases. While finding a tick on your pet can be alarming, knowing how to remove it safely and prevent future infestations is key."
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Removing a Tick:"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <ImageView
+                android:id="@+id/ticks_image1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/tick1"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gather your supplies: You'll need fine-tipped tweezers, rubbing alcohol or antiseptic wipes, and a container with a lid (for disposal)."
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grasp the tick firmly: Using the tweezers, carefully grasp the tick as close to your pet's skin as possible. Avoid squeezing the body, as this can cause it to regurgitate and increase the risk of infection."
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slow and steady wins the race: With a gentle, steady motion, pull the tick straight upwards away from your pet's skin. Do not twist or jerk, as this can break off the tick's mouthparts, leaving them embedded in your pet."
+                android:layout_marginBottom="4dp"/>
+
+            <ImageView
+                android:id="@+id/ticks_image2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/tick2"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clean the bite area: Once the tick is removed, clean the bite area with rubbing alcohol or an antiseptic wipe to help prevent infection."
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dispose of the tick properly: Place the tick in the container with a lid and seal it tightly. You can then dispose of it in your household trash."
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preventing Ticks:"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <ImageView
+                android:id="@+id/ticks_image3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/tick3"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The best defense against ticks is a good offense! Here are some tips to help keep your pet tick-free:"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regular tick checks: Make it a habit to thoroughly check your pet's fur for ticks after spending time outdoors, especially in tick-infested areas."
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Use tick prevention medication: Talk to your veterinarian about the best tick prevention medication for your pet. Options include topical treatments, collars, and oral medications."
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maintain a tick-free yard: Keep your lawn mowed and free of debris where ticks like to hide. Consider using a pet-safe tick repellent for your yard."
+                android:layout_marginBottom="4dp"/>
+
+            <ImageView
+                android:id="@+id/ticks_image4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/tick4"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inspect outdoor gear: After spending time outdoors, check your pet's leash, harness, and bedding for ticks that might have hitchhiked a ride."
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Important Note:"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you're uncomfortable removing a tick yourself, or if the tick's mouthparts remain embedded in your pet's skin, it's best to consult your veterinarian. They can safely remove the tick and advise you on any further treatment or monitoring needed."
+                android:layout_marginBottom="4dp"/>
+
+            <ImageView
+                android:id="@+id/ticks_image5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/tick5"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:text="By following these tips, you can keep your pet safe from ticks and ensure they enjoy a happy and healthy life!" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

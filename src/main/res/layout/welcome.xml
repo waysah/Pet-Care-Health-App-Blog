@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360dp"
+        android:layout_height="390dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/petcarehealth"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="118dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/petCare"
+        android:layout_width="410dp"
+        android:layout_height="106dp"
+        android:fontFamily="cursive"
+        android:text="WELCOME TO PETCARE HEALTH SERVICES"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

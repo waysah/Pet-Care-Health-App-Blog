@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutUs">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About PetCare Health App"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/chatbot_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/petcare1"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/about_us"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/intro_paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="At PetCare Health App, we understand the deep bond between you and your furry (or feathery, or scaly!) friend. They bring so much joy into our lives, and we want to make sure they live long, healthy, and happy lives too. That's why we created this innovative app, designed to empower pet owners like you to take control of your pet's health and well-being."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chatbot_image" />
+
+        <TextView
+            android:id="@+id/expert_solutions_section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expert Solutions When You Need Them at an Affordable Price:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintTop_toBottomOf="@id/intro_paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/explore_page_image"
+            android:layout_width="335dp"
+            android:layout_height="110dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/safaricom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/expert_solutions_section_title" />
+
+        <TextView
+            android:id="@+id/expert_solutions_section_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For in-depth assistance with your pet's health, you can access our expert AI chatbot service by making a secure payment via M-Pesa. This service provides personalized advice and detailed information, ensuring you get the support you need, when you need it."
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintTop_toBottomOf="@id/explore_page_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chatbot_section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AI-powered Chatbot for Convenient Pet Care Advice:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintTop_toBottomOf="@id/expert_solutions_section_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/chatBot"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/chatbot"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/chatbot_section_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chatbot_section_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes, a quick question about your pet's behavior or a minor concern can arise. Our friendly AI chatbot is available 24/7 to answer your questions and offer solutions. Simply describe your pet's issue, and the chatbot will provide helpful information and recommendations."
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintTop_toBottomOf="@id/chatBot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/explore_page_section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore Page for Pet Health Knowledge:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintTop_toBottomOf="@id/chatbot_section_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/blogs"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/blog"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/explore_page_section_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/explore_page_section_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Never stop learning! Our Explore page is a treasure trove of valuable information on various pet health topics, breed-specific care guides, training tips, and even fun activities to keep your furry friend engaged. Stay updated on the latest advancements in pet care and ensure you're providing the best possible life for your pet."
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintTop_toBottomOf="@id/blogs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/reminders_section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay on Top of Pet Care with Reminders:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintTop_toBottomOf="@id/explore_page_section_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/reminders_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/reminder"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/reminders_section_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/reminders_section_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Life gets busy, but your pet's health shouldn't suffer. With our user-friendly reminder system, you can set alerts for vet appointments, medication schedules, deworming, nail trimming, and anything else you need to keep track of. No more missed appointments or forgotten essentials!"
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintTop_toBottomOf="@id/reminders_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/contact_us_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/contactus"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/reminders_section_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/contact_us_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0740629899 0759403255 0725216754"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:background="@android:color/black"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintTop_toBottomOf="@id/contact_us_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
